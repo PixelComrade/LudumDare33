@@ -216,12 +216,9 @@ pip-log.txt
 .mr.developer.cfg
 
 #Custom settings
-Art/*
-FreeAssets/*
 *.csproj
-OutTheWay/Temp/*
-OutTheWay/Library/metadata/*
-OutTheWay/Library/ShaderCache/*
-OutTheWay/Assets/Imports/*
-OutTheWay/Assets/Standard Assets/*
-OutTheWay/Builds/*
+*.userprefs
+Project/Temp/*
+Project/Library/*
+Project/Builds/*
+Project/Library/ShaderCache/b/b16071103caa66b731444a3514d77252.bin
