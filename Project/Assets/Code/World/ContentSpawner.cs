@@ -68,9 +68,9 @@ public class ContentSpawner : MonoBehaviour {
 		for (int i = 0; i < density; i++) {
 			// "i" now represents the progress around the circle from 0-1
 			// we multiply by 1.0 to ensure we get a fraction as a result.
-			float counter = (i * 1.0f) / density;
+			float progress = (i * 1.0f) / density;
 			// get the angle for this step (in radians, not degrees)
-			var angle = counter * Mathf.PI * 2;
+			var angle = progress * Mathf.PI * 2;
 			// the X & Y position for this angle are calculated using Sin & Cos
 			float x = Mathf.Sin(angle) * radiusX;
 			float z = Mathf.Cos(angle) * radiusZ;
